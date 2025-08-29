@@ -207,7 +207,7 @@ export function RiskMatrix() {
                         >
                           <div className="text-xs text-center mb-2 opacity-70">{score}</div>
                           <div className="space-y-1">
-                            {cellRisks.slice(0, 3).map((risk, index) => (
+                            {cellRisks.slice(0, 3).map((risk) => (
                               <div
                                 key={risk.id}
                                 className={`
